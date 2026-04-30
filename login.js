@@ -9,7 +9,7 @@ document.getElementById('formularioLogin').addEventListener('submit', function(e
     if (usuario === 'axel' && contrasena === '12345') {
         alert('Inicio de sesión exitoso. ¡Bienvenido!');
         //Aquí podrías redirigir a otra página:
-        window.location.href = "www.facebook.com";
+        window.location.href = "https://www.facebook.com/";
     }   else {
         alert('Usuario o contraseña incorrectos. Intenta nuevamente.');
     }
